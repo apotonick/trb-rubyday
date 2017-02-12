@@ -1,6 +1,8 @@
 source 'https://rubygems.org'
 
-gem "trailblazer-operation", github: "trailblazer/operation"
-# gem "trailblazer", github: "trailblazer/trailblazer"
+gem "trailblazer-operation"
+gem "trailblazer"
 gem "activerecord"
 gem "sqlite3"
+gem "dry-validation"
+gem "reform"
